@@ -1,0 +1,11 @@
+path: datasets/sports  # dataset root dir
+train: images/val  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Keypoints
+kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+# Classes
+names:
+  0: person
